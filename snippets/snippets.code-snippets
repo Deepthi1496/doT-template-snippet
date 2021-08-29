@@ -1,0 +1,119 @@
+{
+    "dotJs Compile template function": {
+        "prefix": ".djs-ctf",
+        "body": [
+            "doT.template(${1:Template text},${2| null, |},${3:Data for compile time evaluation});"
+        ],
+        "description": "dotJs Compile template function"
+    },
+    "dotJs Compile template function - 1": {
+        "prefix": ".djs-ctf1",
+        "body": [
+            "var ${1:TemplateFunctionVariable} = doT.template(document.getElementById('${2:Element ID}').text, undefined, ${3:Data for compile time evaluation});",
+            "document.getElementById('${4:Element ID}').innerHTML = ${1:TemplateFunctionVariable}(${5:Data});"
+        ],
+        "description": "dotJs Compile template function - 1"
+    },
+    "dotJs Array - Template": {
+        "prefix": ".djs-arr",
+        "body": [
+            "{{~ ${1:array}:${2:iterator_element}}}",
+            "{{=${2:iterator_element}.$3}}",
+            "{{~}}"
+        ],
+        "description": "dotJs Array - Template"
+    },
+    "dotJS Select List of Option - Template": {
+        "prefix": ".djs-sel-opt",
+        "body": [
+            "<select>",
+            "{{~ ${1:array}:${2:iterator_element}}}",
+            "<option>{{=${2:iterator_element}.$3}}</option>",
+            "{{~}}",
+            "</select>"
+        ],
+        "description": "dotJS Select List of Option - Template"
+    },
+    "dotJs Unordered List - Template": {
+        "prefix": ".djs-ul",
+        "body": [
+            "<ul>",
+            "{{~ ${1:array}:${2:iterator_element}}}",
+            "<li>{{=${2:iterator_element}.$3}}</li>",
+            "{{~}}",
+            "</ul>  "
+        ],
+        "description": "dotJs Unordered List - Template"
+    },
+    "dotJs Ordered List - Template": {
+        "prefix": ".djs-ol",
+        "body": [
+            "<ol>",
+            "{{~ ${1:array}:${2:iterator_element}}}",
+            "<li>{{=${2:iterator_element}.$3}}</li>",
+            "{{~}}",
+            "</ol> "
+        ],
+        "description": "dotJs Ordered List - Template"
+    },
+    "dotJs If Else - Template": {
+        "prefix": ".djs-if-else",
+        "body": [
+            "{{? ${1:IF condition Ex: def.count === 0} }}",
+            "\t${TM_SELECTED_TEXT}${2}",
+            "{{?? ${3:Else condition Ex: def.count === 1} }}",
+            "\t${4}",
+            "{{?}}"
+        ],
+        "description": "dotJs If Else - Template"
+    },
+    "dotJs If - Template": {
+        "prefix": ".djs-if",
+        "body": [
+            "{{if( {{${1:Condition Ex: def.count === 0}}} ) { }}",
+            "\t ${TM_SELECTED_TEXT}${2}",
+            "{{ } }}",
+            ""
+        ],
+        "description": "dotJs If - Template"
+    },
+    "dotJs Function - Template": {
+        "prefix": ".djs-fn",
+        "body": [
+            "{{##def.${1:Function_Name} = function() {",
+            "\t${2:Javascript - Function_Block}",
+            "}",
+            "#}}",
+            ""
+        ],
+        "description": "dotJs Function - Template"
+    },
+    "dotJs Function Call - Template": {
+        "prefix": ".djs-fnc",
+        "body": [
+            "{{#def.${TM_SELECTED_TEXT}${1}()}}"
+        ],
+        "description": "dotJs Function Call - Template"
+    },
+    "dotJs Loading External Scripts - Template": {
+        "prefix": ".djs-load",
+        "body": [
+            "{{#def.loadfile('${1:FILE_PATH}')}}"
+        ],
+        "description": "dotJs Loading External Scripts - Template"
+    },
+    "dotJs Variables - Template": {
+        "prefix": ".djs-v",
+        "body": [
+            "{{#def.${1}}}"
+        ],
+        "description": "dotJs Variables - Template"
+    },
+    "dotJs Ternary Operator - Template": {
+        "prefix": ".djs-?",
+        "body": [
+            "{{#def.${1:Def_Variable} ${2:Condition} ? '${3:True}' : '${4:False}'}}"
+        ],
+        "description": "dotJs Ternary Operator - Template"
+    }
+}
