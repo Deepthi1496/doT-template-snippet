@@ -1,27 +1,15 @@
-Version 2.0.0
-Contains Handlebars snippets for EmberJS
+# Version 1.0.0
+Contains doTJs snippets.
 
-Installation
+# Installation
 In order to install an extension you need to launch the Command Pallete (Ctrl + Shift + P or Cmd + Shift + P) and type Extensions. There you have either the option to show the already installed snippets or install new ones. Search for EmberJS es6 and install it.
 
-Supported languages (file extensions)
+# Supported languages (file extensions)
 JavaScript (.js)
-Javascript(ES6) Snippets for EmberJS
+Javascript(ES6) Snippets for dotJS
 Below is a list of all available javascript snippets and the triggers of each one. The ⇥ means the TAB key. All the snippets are indented as per ESLint
 
-Console Log Statements
-Trigger	Content
-clg→	console log console.log(object);
-clg2→	console log console.log('tag', object);
-Get and Set
-Trigger	Content
-tgt→	get object this.get(object)
-tst	set objectthis.set(object)
-cgt→	get object from controller (used in model hooks) controller.get(object)
-cst→	set object on controller (used in model hooks) controller.set('tag', object)
-tcgt	get object from controller this.controller.get(object)
-tcst→	set object on controller this.controller.set('tag', object)
-Functions
+# Functions
 Trigger	Content
 func→	function with no params functionName() {}
 func1→	function with 1 param functionName(param) {}
