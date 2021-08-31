@@ -45,6 +45,26 @@ It performs admirably in both Node.js and browsers.
 |`-fn`|	function with no params functionName() {}|
 |`-fn`|	function with 1 param functionName(param) {}|
 
+# Snippets
+|Trigger |	Content|
+|-------|----------|
+|`Compile template function`|
+|`Compile template function - 1`|
+|`Array - Template`|
+|`Select List of Option`|
+|`Unordered List`|
+|`Ordered List`|
+|`If`|
+|`If Else`|
+|`Function`|
+|`Function Call`|
+|`Loading External Scripts`|
+|`Variables`|
+|`Ternary Operator `|
+
+
+
+
 -----------------------------------------------------------------------------------------------------------
 
 ## Working with Markdown
