@@ -14,6 +14,9 @@ In order to install an extension you need to launch the Command Pallete (Ctrl + 
 - The main advantage of code snippets is that they speed up the development work. 
 - They are templates that make it easier to enter repeating code patterns
 
+# Why template engine?
+In your application, a template engine allows you to use static template files. An HTML file is supplied to a client by replacing variables in a template file with actual values at runtime. Designing an HTML page becomes easier with this method of working.
+
 # doT.js 
 doT.js was built in order to find the quickest and most compact JavaScript templating function possible, with a focus on performance in V8 and Node.js. 
 It performs admirably in both Node.js and browsers.
@@ -27,6 +30,15 @@ It performs admirably in both Node.js and browsers.
 7. Array iterators.
 8. Streaming-friendly whitespace - strip or presserve.
 9. It's up to you whether you want to use it without logic or with reasoning.
+
+# Installation
+## For Node.js
+- If you plan to use doT with Node.js, you can install doT with npm:
+> npm install dot
+- Then use require('dot') in your code.
+## For browsers
+- Include the javascript file in your source:
+<script type="text/javascript" src="doT.js"></script>
 
 ## Here is the list of default delimiters:
 |Trigger |	Content|
