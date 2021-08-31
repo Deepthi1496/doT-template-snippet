@@ -2,7 +2,7 @@
 Contains doT.js snippets.
 
 # Installation
-In order to install an extension you need to launch the Command Pallete (Ctrl + Shift + P or Cmd + Shift + P) and type Extensions. There you have either the option to show the already installed snippets or install new ones. Search for EmberJS es6 and install it.
+In order to install an extension you need to launch the Command Pallete (Ctrl + Shift + P or Cmd + Shift + P) and type Extensions. There you have either the option to show the already installed snippets or install new ones. Search for dotJS and install it.
 
 # Supported languages (file extensions)
 - JavaScript (.js)
@@ -83,28 +83,23 @@ function(tmpl, c, def)
 
 Data is the default parameter for the function, and its name is it. By altering doT.templateSettings.varname, you can change the names and amount of arguments.
 
-# Functions
-|Trigger |	Content|
-|-------|----------|
-|`-fn`|	function with no params functionName() {}|
-|`-fn`|	function with 1 param functionName(param) {}|
 
 # Snippets
 |Trigger |	Content|
 |-------|----------|
-|`Compile template function`|
-|`Compile template function - 1`|
-|`Array - Template`|
-|`Select List of Option`|
-|`Unordered List`|
-|`Ordered List`|
-|`If`|
-|`If Else`|
-|`Function`|
-|`Function Call`|
-|`Loading External Scripts`|
-|`Variables`|
-|`Ternary Operator `|
+|-ctf|`Compile template function`|
+|-ctf1|`Compile template function - 1`|
+|-arr|`Array - Template`|
+|-sel-opt|`Select List of Option`|
+|-ul|`Unordered List`|
+|-ol|`Ordered List`|
+|-if|`If`|
+|-if-else|`If Else`|
+|-fn|`Function`|
+|-fnc|`Function Call`|
+|-load|`Loading External Scripts`|
+|-v|`Variables`|
+|-?|`Ternary Operator `|
 
 
 
