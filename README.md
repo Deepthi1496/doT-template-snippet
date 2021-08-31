@@ -9,6 +9,36 @@ JavaScript (.js)
 Javascript(ES6) Snippets for dotJS
 Below is a list of all available javascript snippets and the triggers of each one. The ⇥ means the TAB key. All the snippets are indented as per ESLint
 
+# Why code snippets?
+A code snippet is like the boilerplate which can be used frequently. 
+The main advantage of code snippets is that they speed up the development work. 
+They are templates that make it easier to enter repeating code patterns
+
+# doT.js 
+doT.js was built in order to find the quickest and most compact JavaScript templating function possible, with a focus on performance in V8 and Node.js. 
+It performs admirably in both Node.js and browsers.
+## Features
+1. There are no dependencies, and the 120 loc custom delimiters are exceptionally fast.
+2. Evaluation at runtime.
+3. Conditionals are supported. 
+4. Runtime interpolation and compile-time evaluation. 
+5. Partials and conditonal support.
+6. Provides encoding. 
+7. Array iterators.
+8. Streaming-friendly whitespace - strip or presserve.
+9. It's up to you whether you want to use it without logic or with reasoning.
+
+## Here is the list of default delimiters:
+|Trigger |	Content|
+|-------|----------|
+|`{{ }}`|	for evaluation|
+|`{{= }}`|	for interpolation|
+|`{{! }}`	|for interpolation with encoding|
+|`{{# }}`	|for compile-time evaluation/includes and partials|
+|`{{## #}}`	|for compile-time defines|
+|`{{? }}`|	for conditionals|
+|`{{~ }}`	|for array iteration|
+
 # Functions
 |Trigger |	Content|
 |-------|----------|
