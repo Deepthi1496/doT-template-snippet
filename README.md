@@ -5,14 +5,14 @@ Contains doTJs snippets.
 In order to install an extension you need to launch the Command Pallete (Ctrl + Shift + P or Cmd + Shift + P) and type Extensions. There you have either the option to show the already installed snippets or install new ones. Search for EmberJS es6 and install it.
 
 # Supported languages (file extensions)
-JavaScript (.js)
-Javascript(ES6) Snippets for dotJS
-Below is a list of all available javascript snippets and the triggers of each one. The ⇥ means the TAB key. All the snippets are indented as per ESLint
+- JavaScript (.js)
+- Javascript(ES6) Snippets for dotJS
+- Below is a list of all available javascript snippets and the triggers of each one. The ⇥ means the TAB key. All the snippets are indented as per ESLint
 
 # Why code snippets?
-A code snippet is like the boilerplate which can be used frequently. 
-The main advantage of code snippets is that they speed up the development work. 
-They are templates that make it easier to enter repeating code patterns
+- A code snippet is like the boilerplate which can be used frequently. 
+- The main advantage of code snippets is that they speed up the development work. 
+- They are templates that make it easier to enter repeating code patterns
 
 # doT.js 
 doT.js was built in order to find the quickest and most compact JavaScript templating function possible, with a focus on performance in V8 and Node.js. 
