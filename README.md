@@ -40,6 +40,28 @@ It performs admirably in both Node.js and browsers.
 - Include the javascript file in your source:
 <script type="text/javascript" src="doT.js"></script>
 
+# API
+## doT.templateSettings - default compilation settings
+You can customize doT by changing compilation settings. Here are the default settings:
+
+doT.templateSettings = {
+|Trigger |	Content|
+|-------|----------|
+  |`evaluate`:|    /\{\{([\s\S]+?)\}\}/g,|
+  |`encode`: |     /\{\{!([\s\S]+?)\}\}/g,|
+  |`use`:|         /\{\{#([\s\S]+?)\}\}/g,|
+  |`define`:|      /\{\{##\s*([\w\.$]+)\s*(\:|=)([\s\S]+?)#\}\}/g,|
+  |`conditional`:| /\{\{\?(\?)?\s*([\s\S]*?)\s*\}\}/g,|
+  |`iterate`: |    /\{\{~\s*(?:\}\}|([\s\S]+?)\s*\:\s*([\w$]+)\s*(?:\:\s*([\w$]+))?\s*\}\})/g,|
+  |`varname`:| 'it',|
+  |`strip`:| true,|
+  |`append`:| true,|
+  |`selfcontained`:| false|
+
+};
+
+If you want to use your own delimiters, you can modify RegEx in doT.templateSettings to your liking.
+
 ## Here is the list of default delimiters:
 |Trigger |	Content|
 |-------|----------|
