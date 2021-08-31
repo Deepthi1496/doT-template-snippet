@@ -73,6 +73,16 @@ If you want to use your own delimiters, you can modify RegEx in doT.templateSett
 |`{{? }}`|	for conditionals|
 |`{{~ }}`	|for array iteration|
 
+# doT.template - template compilation function
+Call this function to compile your template into a function.
+
+function(tmpl, c, def)
+- tmpl - template text
+- c - custom compilation settings, if null, doT.templateSettings is used
+- def - data for compile time evaluation
+
+Data is the default parameter for the function, and its name is it. By altering doT.templateSettings.varname, you can change the names and amount of arguments.
+
 # Functions
 |Trigger |	Content|
 |-------|----------|
