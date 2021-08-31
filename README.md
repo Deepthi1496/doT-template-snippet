@@ -10,9 +10,10 @@ Javascript(ES6) Snippets for dotJS
 Below is a list of all available javascript snippets and the triggers of each one. The ⇥ means the TAB key. All the snippets are indented as per ESLint
 
 # Functions
-Trigger	Content
-|`func`|	function with no params functionName() {}|
-|`func1`|	function with 1 param functionName(param) {}|
+|Trigger |	Content|
+|-------|----------|
+|`-fn`|	function with no params functionName() {}|
+|`-fn`|	function with 1 param functionName(param) {}|
 
 -----------------------------------------------------------------------------------------------------------
 
